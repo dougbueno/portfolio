@@ -1,0 +1,119 @@
+body {
+    background-color:#F0F0F0;
+    font-family: 'Arial';
+    color:  #262627;
+}
+.inicio{
+  text-align: center;
+}
+h2, a{
+    text-align: center;
+    text-decoration: none;
+}
+img {
+    width: 120px;
+    height: 120px;
+}
+header .container {
+    justify-content: space-between;
+    padding: 0px;
+    text-align: center;
+    max-width: 40em;
+		margin: 0 auto;
+  }
+  .botao {
+    background-color: #99AD04;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.botao2 {
+  background-color: #99AD04;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.botao2:hover{
+  color: #FFFFFF;
+  background-color: #920E67;
+  font-weight: bold;
+}
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+header nav a:hover {
+  color: #FFFFFF;
+  background-color:  #920E67;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#footer {
+  position: fixed;
+  width: 100%;
+  left: 0px ;
+  top: 93%;
+  height: 20%;
+  background-color: #99AD04; 
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color:#FFFFFF;
+  font-weight: bold;
+  }
+  footer a {
+    text-decoration: none;
+    color:#FFFFFF;
+    margin: 20px;
+}
+
+footer a:hover {
+  color: #FFFFFF;
+  background-color: #920E67;
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+  #header {
+    background-color:  #99AD04; 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    }
+
+    .cabecalho {
+			background: #99AD04;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 16px;
+		}
+
+		.cabecalho--fixo {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			box-shadow: 0 2px 7px #000000;
+    }
+    .contatos{
+      width: 50px;
+      height: 50px;
+    }
+    .contatos2{
+      width: 25px;
+      height: 25px;
+    }
+    table{
+      margin-top: 10px;
+      padding: 10px;
+      width: 800px;
+      text-align: justify;
+      border: 2px solid #99AD04;
+    }
